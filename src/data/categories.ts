@@ -1,0 +1,68 @@
+import type { Category } from '../types';
+
+export const CATEGORIES: Category[] = [
+  {
+    id: 'modul-ajar',
+    name: 'Modul Ajar & Perencanaan',
+    description: 'RPP Merdeka Belajar, modul diferensiasi, alur ATP, dan desain PjBL',
+    icon: 'Layers',
+    color: 'text-blue-600',
+    bgLight: 'bg-blue-50 border-blue-200',
+  },
+  {
+    id: 'lkpd-bahan',
+    name: 'LKPD & Bahan Ajar',
+    description: 'Lembar kerja siswa, panduan praktikum, studi kasus, & bahan bacaan',
+    icon: 'FileText',
+    color: 'text-teal-600',
+    bgLight: 'bg-teal-50 border-teal-200',
+  },
+  {
+    id: 'bank-soal',
+    name: 'Bank Soal & Rubrik',
+    description: 'Pilihan ganda HOTS, esai penalaran, kisi-kisi, & rubrik penilaian autentik',
+    icon: 'CheckSquare',
+    color: 'text-indigo-600',
+    bgLight: 'bg-indigo-50 border-indigo-200',
+  },
+  {
+    id: 'rangkuman-materi',
+    name: 'Rangkuman & Penjelasan',
+    description: 'Teknik Feynman, analogi sederhana, peta konsep, & bedah rumus',
+    icon: 'BookOpenCheck',
+    color: 'text-amber-600',
+    bgLight: 'bg-amber-50 border-amber-200',
+  },
+  {
+    id: 'tutor-ujian',
+    name: 'Tutor Belajar & Ujian',
+    description: 'Tanya jawab sokratik, simulasi ujian, flashcard, & jadwal belajar',
+    icon: 'Brain',
+    color: 'text-emerald-600',
+    bgLight: 'bg-emerald-50 border-emerald-200',
+  },
+  {
+    id: 'penelitian-akademik',
+    name: 'Penelitian & Akademik',
+    description: 'Rumusan masalah, literature review, metodologi riset, & parafrase',
+    icon: 'Microscope',
+    color: 'text-purple-600',
+    bgLight: 'bg-purple-50 border-purple-200',
+  },
+  {
+    id: 'presentasi-admin',
+    name: 'Presentasi & Administrasi',
+    description: 'Outline slide presentasi, naskah kelas, silabus, & surat edukasi',
+    icon: 'Presentation',
+    color: 'text-cyan-600',
+    bgLight: 'bg-cyan-50 border-cyan-200',
+  },
+  {
+    id: 'produktivitas',
+    name: 'Produktivitas',
+    description: 'Komunikasi wali murid, manajemen waktu, ide proyek, & editorial',
+    icon: 'Zap',
+    color: 'text-rose-600',
+    bgLight: 'bg-rose-50 border-rose-200',
+  },
+];
